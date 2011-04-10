@@ -17,3 +17,7 @@ module Html5Canvas
     end
   end
 end
+
+if defined?(Rails::Railtie)
+  require 'html5_canvas/railtie'
+end
