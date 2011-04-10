@@ -1,7 +1,7 @@
 module Html5Canvas
   def self.install_canvas_js
     require 'fileutils'
-    orig = File.join(File.dirname(__FILE__), 'assets', 'canvas')
+    orig = File.join(File.dirname(__FILE__), 'html5_canvas', 'assets', 'canvas')
     dest = File.join(Rails.root.to_s, 'public', 'javascripts', 'canvas')
     begin
       puts "Creating directory #{dest}..."
@@ -19,7 +19,7 @@ module Html5Canvas
 
   def self.install_canvas_css
     require 'fileutils'
-    orig = File.join(File.dirname(__FILE__), 'assets', 'css')
+    orig = File.join(File.dirname(__FILE__), 'html5_canvas', 'assets', 'css')
     dest = File.join(Rails.root.to_s, 'public', 'stylesheets', 'canvas')
     begin
       puts "Creating directory #{dest}..."
@@ -28,7 +28,7 @@ module Html5Canvas
       FileUtils.cp_r "#{orig}/.", dest
       puts "Successfully installed Canvas."
     rescue
-      puts "ERROR: Problem installing Canvas. Please manually copy "
+      puts "ERROR: Problem installing Canvas css. Please manually copy "
       puts orig
       puts "to"
       puts dest
