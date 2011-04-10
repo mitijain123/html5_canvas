@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="railest.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/railest.rb">
+      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -294,16 +294,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.rb">
+    <entry file="file://$PROJECT_DIR$/lib/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/railest.rb">
+    <entry file="file://$PROJECT_DIR$/init.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
