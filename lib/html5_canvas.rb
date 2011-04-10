@@ -19,6 +19,6 @@ module Html5Canvas
 end
 
 class ActiveView::Base
-  include ActiveView::Helpers::Html5Video
+  include ActiveView::Helpers::Html5Canvas
 end
 
