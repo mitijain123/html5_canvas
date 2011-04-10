@@ -1,7 +1,7 @@
 module Html5Canvas
   def self.install_canvas
     require 'fileutils'
-    orig = File.join(File.dirname(__FILE__), 'html5_canvas', 'assets', 'canvas')
+    orig = File.join(File.dirname(__FILE__), 'assets', 'canvas')
     dest = File.join(Rails.root.to_s, 'public', 'javascripts', 'canvas')
     begin
       puts "Creating directory #{dest}..."
