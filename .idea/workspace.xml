@@ -24,10 +24,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html5_canvas.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5_canvas.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="642" selection-end="642" vertical-scroll-proportion="0.45776567">
+            <state line="18" column="3" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/init.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,9 +52,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/init.rb" />
         <option value="$PROJECT_DIR$/lib/html5_video.rb" />
         <option value="$PROJECT_DIR$/lib/html5_canvas.rb" />
+        <option value="$PROJECT_DIR$/init.rb" />
       </list>
     </option>
   </component>
@@ -245,14 +254,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="642" selection-end="642" vertical-scroll-proportion="0.45776567">
+        <state line="18" column="3" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

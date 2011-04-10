@@ -17,8 +17,3 @@ module Html5Canvas
     end
   end
 end
-
-class ActiveView::Base
-  include ActiveView::Helpers::Html5Canvas
-end
-
