@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5922e0e1-5be4-4cae-95e2-4e8e85fed152" name="Default" comment="" />
+    <list default="true" id="5922e0e1-5be4-4cae-95e2-4e8e85fed152" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" />
+    </list>
     <ignored path="html_5_vedio.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,10 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5_canvas.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5_canvas.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="675" selection-end="675" vertical-scroll-proportion="0.45776567">
+            <state line="62" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/html5_canvas/helpers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="3" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +60,7 @@
       <file leaf-file-name="view_helpers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0">
+            <state line="30" column="3" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="railtie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.32697546">
               <folding />
             </state>
           </provider>
@@ -76,6 +91,30 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Branch.Configurations">
+    <option name="CURRENT" value="master" />
+    <option name="CONFIGURATIONS">
+      <array>
+        <BranchConfiguration>
+          <option name="IS_AUTO_DETECTED" value="true" />
+          <option name="NAME" value="master" />
+          <option name="BRANCHES">
+            <array>
+              <BranchInfo>
+                <option name="ROOT" value="$PROJECT_DIR$" />
+                <option name="REFERENCE" value="master" />
+              </BranchInfo>
+            </array>
+          </option>
+        </BranchConfiguration>
+      </array>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="GIT_EXECUTABLE" value="/opt/local/bin/git" />
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -85,11 +124,11 @@
         <option value="$PROJECT_DIR$/lib/html5_canvas/assets/css/canvas.css" />
         <option value="$PROJECT_DIR$/lib/tasks/html5_canvas.rake" />
         <option value="$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js" />
-        <option value="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
         <option value="$PROJECT_DIR$/init.rb" />
+        <option value="$PROJECT_DIR$/lib/html5_canvas.rb" />
+        <option value="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
         <option value="$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb" />
         <option value="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" />
-        <option value="$PROJECT_DIR$/lib/html5_canvas.rb" />
       </list>
     </option>
   </component>
@@ -119,6 +158,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,7 +230,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="RunManager">
@@ -268,7 +307,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6710354" order="0" side_tool="false" content_ui="tabs" />
@@ -278,6 +316,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -322,63 +361,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/css/canvas.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.021798365">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.021798365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17278618">
+        <state line="5" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17278618" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="57" selection-start="128" selection-end="139" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/html5_canvas.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas/helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="648" selection-end="665" vertical-scroll-proportion="0.7287785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="25" column="3" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="57" selection-start="128" selection-end="139" vertical-scroll-proportion="0.0">
+        <state line="30" column="3" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/html5_canvas.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="675" selection-end="675" vertical-scroll-proportion="0.45776567">
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.32697546">
           <folding />
         </state>
       </provider>
