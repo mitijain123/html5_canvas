@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5922e0e1-5be4-4cae-95e2-4e8e85fed152" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas/assets/canvas/CanvasPainter.js" afterPath="$PROJECT_DIR$/lib/html5_canvas/assets/canvas/CanvasPainter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" afterPath="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" />
     </list>
     <ignored path="html_5_vedio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +47,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CanvasPainter.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/canvas/CanvasPainter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="36" selection-start="5728" selection-end="5728" vertical-scroll-proportion="0.24410541">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="3" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+            <state line="12" column="55" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,7 +68,7 @@
       <file leaf-file-name="view_helpers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="3" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0">
+            <state line="7" column="51" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="railtie.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="railtie.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/html5_canvas/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.32697546">
+            <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,9 +134,9 @@
         <option value="$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js" />
         <option value="$PROJECT_DIR$/init.rb" />
         <option value="$PROJECT_DIR$/lib/html5_canvas.rb" />
-        <option value="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
-        <option value="$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb" />
         <option value="$PROJECT_DIR$/lib/html5_canvas/railtie.rb" />
+        <option value="$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb" />
+        <option value="$PROJECT_DIR$/lib/html5_canvas/helpers.rb" />
       </list>
     </option>
   </component>
@@ -158,7 +166,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,8 +234,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5_canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -369,19 +425,35 @@
         <state line="5" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17278618" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/canvas/custom_canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/init.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="57" selection-start="128" selection-end="139" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/railtie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/html5_canvas.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="29" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="55" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/html5_canvas.rb">
@@ -391,23 +463,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/helpers.rb">
+    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/assets/canvas/CanvasPainter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/view_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="3" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/html5_canvas/railtie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.32697546">
+        <state line="110" column="36" selection-start="5728" selection-end="5728" vertical-scroll-proportion="0.24410541">
           <folding />
         </state>
       </provider>

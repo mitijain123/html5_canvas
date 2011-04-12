@@ -8,6 +8,8 @@ module Html5Canvas
       javascript_include_tag("canvas/CPWidgets.js") +
       javascript_include_tag("canvas/CPAnimator.js") +
       javascript_include_tag("canvas/CPDrawing.js") +
+      javascript_include_tag("canvas/canvas2image.js") +
+      javascript_include_tag("canvas/base64.js") +
       javascript_include_tag("canvas/custom_canvas.js")
     end
 
