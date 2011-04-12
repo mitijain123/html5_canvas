@@ -10,6 +10,11 @@ module Html5Canvas
 		<div class=\"ctr_btn\" id=\"btn_5\" onclick=\"setCPDrawAction(5)\" onMouseDown=\"setControlLook(5, '#CCCCCC')\" onMouseOver=\"setControlLook(5, '#EEEEEE')\" onMouseOut=\"setControlLook(5, '#FFFFFF')\">clear</div>
     <div class=\"ctr_btn\" id=\"btn_6\" onclick=\"setCPDrawAction(6)\" onMouseDown=\"setControlLook(6, '#CCCCCC')\" onMouseOver=\"setControlLook(6, '#EEEEEE')\" onMouseOut=\"setControlLook(6, '#FFFFFF')\">Draw Image</div>
 		<br>
+
+    <div class=\"ctr_btn\" id=\"btn_12\" onclick=\"printCanvas();\" onMouseDown=\"setControlLook(12, '#CCCCCC')\" onMouseOver=\"setControlLook(12, '#EEEEEE')\" onMouseOut=\"setControlLook(12, '#FFFFFF')\">print</div>
+    <div class=\"ctr_btn\" id=\"btn_15\" onclick=\"setCPDrawAction(15)\" onMouseDown=\"setControlLook(15, '#CCCCCC')\" onMouseOver=\"setControlLook(15, '#EEEEEE')\" onMouseOut=\"setControlLook(15, '#FFFFFF')\">Save</div>
+    <div class=\"ctr_btn\" id=\"btn_16\" onclick=\"setCPDrawAction(16)\" onMouseDown=\"setControlLook(16, '#CCCCCC')\" onMouseOver=\"setControlLook(16, '#EEEEEE')\" onMouseOut=\"setControlLook(16, '#FFFFFF')\">Image</div>
+
 </div>
 <canvas id=\"canvas\" width=\"400\" height=\"400\"></canvas>
 <canvas id=\"canvasInterface\" width=\"400\" height=\"400\"></canvas>
