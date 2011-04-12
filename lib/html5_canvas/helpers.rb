@@ -1,13 +1,13 @@
 module Html5Canvas
   module Helpers
     def get_canvas_js
-      javascript_include_tag("canvas/CanvasPainter.js") +
-      javascript_include_tag("canvas/CanvasWidget.js") +
       javascript_include_tag("canvas/cp_depends.js") +
+      javascript_include_tag("canvas/excanvas.js") +
+      javascript_include_tag("canvas/CanvasWidget.js") +
+      javascript_include_tag("canvas/CanvasPainter.js") +
+      javascript_include_tag("canvas/CPWidgets.js") +
       javascript_include_tag("canvas/CPAnimator.js") +
       javascript_include_tag("canvas/CPDrawing.js") +
-      javascript_include_tag("canvas/CPWidgets.js") +
-      javascript_include_tag("canvas/excanvas.js") +
       javascript_include_tag("canvas/custom_canvas.js")
     end
 
@@ -20,7 +20,15 @@ module Html5Canvas
     end
 
     def include_canvas_js
-      get_canvas_js + raw_canvas_js
+      get_canvas_js
+    end
+
+    def call_initial_function
+      raw_canvas_js
+    end
+
+    def include_canvas_css
+      stylesheet_link_tag("canvas/canvas.css")
     end
   end
 end
